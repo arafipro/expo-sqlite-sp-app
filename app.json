@@ -2,6 +2,7 @@
   "expo": {
     "name": "expo-sqlite-app",
     "slug": "expo-sqlite-app",
+		"scheme": "expo-sqlite-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
