@@ -11,7 +11,7 @@ export default function TodoList() {
       setTodos(res);
     }
     getAllTodos();
-  }, []);
+  }, [todos]);
   return (
     <View className="flex flex-row flex-wrap">
       {todos.map((todo) => (
