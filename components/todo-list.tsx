@@ -1,6 +1,7 @@
 import { useSQLiteContext } from "expo-sqlite";
 import React, { useEffect, useState } from "react";
-import { Text, View } from "react-native";
+import { View } from "react-native";
+import TodoItem from "./ui/todo-item";
 
 export default function TodoList() {
   const db = useSQLiteContext();
@@ -15,11 +16,12 @@ export default function TodoList() {
   return (
     <View className="flex flex-row flex-wrap">
       {todos.map((todo) => (
-        <View key={todo.id} className="bg-gray-300 m-2 rounded-md">
-          <Text className="text-2xl p-2">
-            {todo.title} - {todo.content}
-          </Text>
-        </View>
+        <TodoItem
+          key={todo.id}
+          id={todo.id}
+          title={todo.title}
+          content={todo.content}
+        />
       ))}
     </View>
   );

@@ -17,16 +17,6 @@ export async function migrateDbIfNeeded(db: SQLiteDatabase) {
 				title TEXT NOT NULL,
 				content TEXT NOT NULL);
 `);
-    await db.runAsync(
-      "INSERT INTO todos (title, content) VALUES (?, ?)",
-      "掃除",
-      "トイレ"
-    );
-    await db.runAsync(
-      "INSERT INTO todos (title, content) VALUES (?, ?)",
-      "買い物",
-      "食料品"
-    );
     currentDbVersion = 1;
   }
   // if (currentDbVersion === 1) {
