@@ -1,8 +1,8 @@
-# 【React Native/Expo51】最新Expo51！Expo SQLiteを使って、スマートフォンのTODOアプリを作る
+# 【React Native/Expo51】データベースExpo SQLiteを使って、スマートフォンのTODOアプリを作る
 
 ## YouTube
 
-[!["【React Native/Expo51】最新Expo51！Expo SQLiteを使って、スマートフォンのTODOアプリを作る"](https://i.ytimg.com/vi/6A2uFuJHZGE/maxresdefault.jpg)](https://youtu.be/6A2uFuJHZGE)
+[!["【React Native/Expo51】データベースExpo SQLiteを使って、スマートフォンのTODOアプリを作る"](https://i.ytimg.com/vi/6A2uFuJHZGE/maxresdefault.jpg)](https://youtu.be/6A2uFuJHZGE)
 
 ## 技術選定
 
